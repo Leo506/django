@@ -3,7 +3,7 @@
     <h1>Edit post</h1>
     <form action="" method="post">
         {% csrf_token %}
-        <p>Are you sure you want to delete "{{ post.title }}"?</p>
+        <p>Уверены, что хотите удалить "{{ post.title }}"?</p>
         <input type="submit" value="Confirm">
     </form>
 {% endblock content %}
